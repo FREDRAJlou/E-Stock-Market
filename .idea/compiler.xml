@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cognizant-case-study-fse2-eureka-server-v1" />
+        <module name="company-service" />
+        <module name="eureka-service-registry" />
+        <module name="stock-service" />
+        <module name="user-service" />
+        <module name="ZuulApiGateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cognizant-case-study-fse2-eureka-server-v1" target="1.8" />
+      <module name="company-service" target="9" />
+      <module name="eureka-service-registry" target="1.8" />
+      <module name="stock-service" target="1.8" />
+      <module name="user-service" target="1.8" />
+      <module name="ZuulApiGateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ZuulApiGateway" options="-parameters" />
+      <module name="cognizant-case-study-fse2-eureka-server-v1" options="-parameters" />
+      <module name="company-service" options="-parameters" />
+      <module name="eureka-service-registry" options="-parameters" />
+      <module name="stock-service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

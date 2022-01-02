@@ -21,6 +21,8 @@ public class User {
 	private String name;
 	private String role;
 	private String password;
+	private String email;
+	private int offset;
 
 	public String getId() {
 		return id;

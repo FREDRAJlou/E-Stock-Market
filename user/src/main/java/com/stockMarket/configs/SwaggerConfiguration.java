@@ -1,4 +1,4 @@
-package com.flightBooking.configs;
+package com.stockMarket.configs;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

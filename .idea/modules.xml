@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/E-Stock.iml" filepath="$PROJECT_DIR$/.idea/E-Stock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZuulAPIGateway/ZuulApiGateway.iml" filepath="$PROJECT_DIR$/ZuulAPIGateway/ZuulApiGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaServiceRegistry/cognizant-case-study-fse2-eureka-server-v1.iml" filepath="$PROJECT_DIR$/EurekaServiceRegistry/cognizant-case-study-fse2-eureka-server-v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/company/company-service.iml" filepath="$PROJECT_DIR$/company/company-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaServiceRegistry/eureka-service-registry.iml" filepath="$PROJECT_DIR$/EurekaServiceRegistry/eureka-service-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock/stock-service.iml" filepath="$PROJECT_DIR$/stock/stock-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user-service.iml" filepath="$PROJECT_DIR$/user/user-service.iml" />
+    </modules>
+  </component>
+</project>
