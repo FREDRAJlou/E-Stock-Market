@@ -49,23 +49,23 @@ public class StockService {
         return stockResponse;
     }
 
-    public StockResponse getStocks(String companyCode, String fromDate, String toDate) {
+    public StockResponse getStocks(String companyCode, Date fromDate, Date toDate) {
         StockResponse stockResponse = new StockResponse();
         stockResponse.setMessage("Error");
         stockResponse.setResultCode(false);
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy");
+//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy");
         Date from, to;
         try {
-            from = simpleDateFormat.parse(fromDate);
-            to = simpleDateFormat.parse(toDate);
+//            from = simpleDateFormat.parse(fromDate);
+//            to = simpleDateFormat.parse(toDate);
         } catch (Exception ex) {
             logger.error("Exception while parsing Date" + ex.getLocalizedMessage());
             stockResponse.getMessage().concat(ex.getMessage());
             return stockResponse;
         }
         try {
-            List<StockModel> stocks = StockDomainAdapter.covertToStockDomainList(this.stockRepository.findByCompany(companyCode, from, to));
-            Aggregation avgAggr = Aggregation.newAggregation(Aggregation.match(Criteria.where("companyCode").is(companyCode).and("date").lt(to).gt(from)), Aggregation.group("companyCode").avg("price").as("avg").min("price").as("min").max("price").as("max"));
+            List<StockModel> stocks = StockDomainAdapter.covertToStockDomainList(this.stockRepository.findByCompany(companyCode, fromDate, toDate));
+            Aggregation avgAggr = Aggregation.newAggregation(Aggregation.match(Criteria.where("companyCode").is(companyCode).and("date").lt(toDate).gt(fromDate)), Aggregation.group("companyCode").avg("price").as("avg").min("price").as("min").max("price").as("max"));
             AggregationResults<AggregatorResult> aggregatorResults = mongoTemplate.aggregate(avgAggr, "STOCK", AggregatorResult.class);
             stockResponse.setMessage(stocks.isEmpty() ? "NO Stocks available" : "Success: Stocks retrieved");
             stockResponse.setResultCode(true);
