@@ -1,0 +1,39 @@
+version: '1'
+services:
+  user-service:
+    image: user-service-docker
+    ports:
+      - "9095:9095"
+    depends_on:
+      - eureka-server
+    environment:
+      eureka.host: eureka-server
+      eureka.instance.preferIpAddress: 'true'
+  stock-service:
+    image: stock-service-docker
+    ports:
+      - "9094:9094"
+    depends_on:
+      - eureka-server
+    environment:
+      eureka.host: eureka-server
+      eureka.instance.preferIpAddress: 'true'
+  company-service:
+    image: company-service-docker
+    ports:
+      - "9093:9093"
+    depends_on:
+      - eureka-server
+    environment:
+      eureka.host: eureka-server
+      eureka.instance.preferIpAddress: 'true'
+  eureka-server:
+    image: eureka-server-docker
+    ports:
+      - "9091:9091"
+  zuul-server:
+    image: zuul-gateway-docker
+    depends_on:
+      - eureka-server
+    ports:
+      - "9089:9089"

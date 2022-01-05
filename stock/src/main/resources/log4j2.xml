@@ -3,7 +3,7 @@
     <Appenders>
         <Kafka name="Kafka" topic="stock-logs">
             <PatternLayout pattern="%date %message"/>
-            <Property name="bootstrap.servers">localhost:9092</Property>
+            <Property name="bootstrap.servers">localhost:9092,172.30.144.1:9092</Property>
         </Kafka>
         <Async name="Async">
             <AppenderRef ref="Kafka"/>
