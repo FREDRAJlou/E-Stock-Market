@@ -39,7 +39,7 @@ public class StockController {
     @ApiOperation(value = "get Stock Details", notes = "retrieves available stocks for the given company code in given time frame")
     @ApiResponses(value = {@ApiResponse(code = 200, message = "Stocks retrieved successfully"),
             @ApiResponse(code = 400, message = "Exception occurred while retrieving stocks")})
-    public StockResponse getStocksByCompanyCodeAndRandge(@PathVariable("companyCode")String companyCode, @PathVariable("startDate") Date startDate, @PathVariable("endDate")Date endDate) {
+    public StockResponse getStocksByCompanyCodeAndRandge(@PathVariable("companyCode")String companyCode, @PathVariable("startDate") String startDate, @PathVariable("endDate")String endDate) {
         logger.info("Got a GET request for Stock Details for company Code - " + companyCode+" from - "+ startDate +" - to - " +endDate);
         return this.stockService.getStocks(companyCode,startDate,endDate);
     }
