@@ -53,11 +53,11 @@ public class StockService {
         StockResponse stockResponse = new StockResponse();
         stockResponse.setMessage("Error");
         stockResponse.setResultCode(false);
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy");
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy hh:mm:s");
         Date from, to;
         try {
-            from = simpleDateFormat.parse(fromDate);
-            to = simpleDateFormat.parse(toDate);
+            from = simpleDateFormat.parse(fromDate+" 00:00:00");
+            to = simpleDateFormat.parse(toDate +" 23:59:59");
         } catch (Exception ex) {
             logger.error("Exception while parsing Date" + ex.getLocalizedMessage());
             stockResponse.getMessage().concat(ex.getMessage());
@@ -96,44 +96,6 @@ public class StockService {
             stockResponse.setResultCode(true);
             stockResponse.setStockList(stocks);
             logger.info("Got details in Stock Service ");
-        } catch (Exception ex) {
-            logger.error(ex.getMessage());
-        }
-        return stockResponse;
-    }
-
-    public StockResponse saveStocks(List<Stock> stocks, String companyCode) {
-        StockResponse stockResponse = new StockResponse();
-        stockResponse.setMessage("Error");
-        stockResponse.setResultCode(false);
-        try {
-            for (Stock stock : stocks) {
-                stock.setCompanyCode(companyCode);
-                Date now = new Date();
-                stock.setDate(now);
-                stock.setOffset(now.getTimezoneOffset());
-            }
-            this.stockRepository.saveAll(stocks);
-            stockResponse.setMessage("Success: Stock Created");
-            stockResponse.setResultCode(true);
-            logger.info("Got details in Stock Service ");
-        } catch (Exception ex) {
-            logger.error(ex.getMessage());
-        }
-        return stockResponse;
-    }
-
-    public StockResponse deleteStocks(String companyCode) {
-        StockResponse stockResponse = new StockResponse();
-        stockResponse.setMessage("Error");
-        stockResponse.setResultCode(false);
-        try {
-            List<Stock> stocks = this.stockRepository.findByCompanyCode(companyCode);
-            for (Stock stock : stocks)
-                this.stockRepository.delete(stock);
-            stockResponse.setMessage("Success: Stocks deleted for company - " + companyCode);
-            stockResponse.setResultCode(true);
-            logger.info("deleted stock details for company " + companyCode);
         } catch (Exception ex) {
             logger.error(ex.getMessage());
         }

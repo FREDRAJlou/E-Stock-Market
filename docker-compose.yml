@@ -7,6 +7,7 @@ services:
     depends_on:
       - eureka-server
     environment:
+      spring.profiles.active: 'dev'
       eureka.host: eureka-server
       eureka.instance.preferIpAddress: 'true'
   stock-service:
@@ -16,6 +17,7 @@ services:
     depends_on:
       - eureka-server
     environment:
+      spring.profiles.active: 'dev'
       eureka.host: eureka-server
       eureka.instance.preferIpAddress: 'true'
   company-service:
@@ -25,6 +27,26 @@ services:
     depends_on:
       - eureka-server
     environment:
+      eureka.host: eureka-server
+      eureka.instance.preferIpAddress: 'true'
+  stock-command-service:
+    image: stock-command-service-docker
+    ports:
+      - "9096:9096"
+    depends_on:
+      - eureka-server
+    environment:
+      spring.profiles.active: 'dev'
+      eureka.host: eureka-server
+      eureka.instance.preferIpAddress: 'true'
+  company-command-service:
+    image: company-command-service-docker
+    ports:
+      - "9097:9097"
+    depends_on:
+      - eureka-server
+    environment:
+      spring.profiles.active: 'dev'
       eureka.host: eureka-server
       eureka.instance.preferIpAddress: 'true'
   eureka-server:

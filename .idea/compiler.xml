@@ -8,28 +8,32 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cognizant-case-study-fse2-eureka-server-v1" />
+        <module name="company-command-service" />
         <module name="company-service" />
         <module name="eureka-service-registry" />
+        <module name="stock-command-service" />
         <module name="stock-service" />
         <module name="user-service" />
         <module name="ZuulApiGateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cognizant-case-study-fse2-eureka-server-v1" target="1.8" />
+      <module name="company-command-service" target="9" />
       <module name="company-service" target="9" />
-      <module name="eureka-service-registry" target="1.8" />
-      <module name="stock-service" target="1.8" />
-      <module name="user-service" target="1.8" />
-      <module name="ZuulApiGateway" target="1.8" />
+      <module name="eureka-service-registry" target="9" />
+      <module name="stock-command-service" target="9" />
+      <module name="stock-service" target="9" />
+      <module name="user-service" target="9" />
+      <module name="ZuulApiGateway" target="9" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ZuulApiGateway" options="-parameters" />
-      <module name="cognizant-case-study-fse2-eureka-server-v1" options="-parameters" />
+      <module name="company-command-service" options="-parameters" />
       <module name="company-service" options="-parameters" />
       <module name="eureka-service-registry" options="-parameters" />
+      <module name="stock-command-service" options="-parameters" />
       <module name="stock-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>

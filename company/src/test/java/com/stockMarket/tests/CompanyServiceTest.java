@@ -29,11 +29,4 @@ class CompanyServiceTest {
         Assertions.assertNotNull(this.companyService.getCompanies());
     }
 
-    @Test
-    void testSaveCompany(){
-        when(companyRepository.saveAll(any())).thenReturn(Collections.emptyList());
-        this.companyService.saveCompanies(Collections.emptyList())
-;        verify(this.companyRepository,times(1)).saveAll(Collections.emptyList());
-    }
-
 }

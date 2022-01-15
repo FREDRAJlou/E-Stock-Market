@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/company/pom.xml" />
         <option value="$PROJECT_DIR$/stock/pom.xml" />
         <option value="$PROJECT_DIR$/ZuulAPIGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/stock-command/pom.xml" />
+        <option value="$PROJECT_DIR$/company-command/pom.xml" />
       </list>
     </option>
   </component>

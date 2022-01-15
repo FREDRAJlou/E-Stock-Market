@@ -30,11 +30,6 @@ class StockServiceTest {
         Assertions.assertNotNull(this.stockService.getStocks());
     }
 
-    @Test
-    void testSaveStocks(){
-        when(stockRepository.saveAll(any())).thenReturn(Collections.emptyList());
-        this.stockService.saveStocks(Collections.emptyList(),"CC");
-        verify(this.stockRepository,times(1)).saveAll(Collections.emptyList());
-    }
+
 
 }

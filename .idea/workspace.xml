@@ -2,13 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88696d98-027c-4b5e-aeba-7fce2d5bb3fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api/src/main/java/com/stockMarket/config/RestTemplateConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/api/src/main/java/com/stockMarket/config/RestTemplateConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/src/main/java/com/stockMarket/CompanyManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/company/src/main/java/com/stockMarket/CompanyManagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/src/main/java/com/stockMarket/configs/KafkaConsumerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/src/main/java/com/stockMarket/configs/RestTemplateConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/company/src/main/java/com/stockMarket/configs/RestTemplateConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/src/main/java/com/stockMarket/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/company/src/main/java/com/stockMarket/controller/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/src/main/java/com/stockMarket/services/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/company/src/main/java/com/stockMarket/services/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/company/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/company/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/company/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/company/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/src/test/java/com/stockMarket/tests/CompanyServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/company/src/test/java/com/stockMarket/tests/CompanyServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/configs/KafkaConsumerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/configs/RestTemplateConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/configs/RestTemplateConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/controller/StockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/services/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/services/StockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock/src/test/java/com/stockMarket/tests/StockServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock/src/test/java/com/stockMarket/tests/StockServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application-prod.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/EurekaServiceRegistry/target/" />
     <ignored path="$PROJECT_DIR$/user/tadocker push 943341556599.dkr.ecr.us-east-1.amazonaws.com/eureka-server-docker:latestrget/" />
     <ignored path="$PROJECT_DIR$/company/target/" />
     <ignored path="$PROJECT_DIR$/stock/target/" />
     <ignored path="$PROJECT_DIR$/ZuulAPIGateway/target/" />
+    <ignored path="$PROJECT_DIR$/stock-command/target/" />
+    <ignored path="$PROJECT_DIR$/user/target/" />
+    <ignored path="$PROJECT_DIR$/company-command/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,19 +50,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/company/src/main/resources/application-dev.properties">
+        <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/services/CompanyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="57">
+              <caret line="41" column="108" selection-start-line="41" selection-start-column="93" selection-end-line="41" selection-end-column="108" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+        <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/configs/RestTemplateConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock-command/src/main/java/com/stockMarket/configs/RestTemplateConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/controller/StockController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="29" />
+              <folding>
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/company/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/controller/CompanyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZuulAPIGateway/src/main/java/com/stock/market/controller/ZuulAPIController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZuulAPIGateway/src/main/java/com/stock/market/ZuulAPIGatewayApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-82">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/CompanyManagementApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -38,71 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/company/src/main/resources/application-prod.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stock/src/main/resources/application-prod.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/company/src/main/resources/log4j2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/src/main/resources/application-dev.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stock/src/main/resources/log4j2.xml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="7" column="124" selection-start-line="7" selection-start-column="124" selection-end-line="7" selection-end-column="124" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application-dev.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -124,11 +171,15 @@
       <find>9092</find>
       <find>starte</find>
       <find>secur</find>
-      <find>log</find>
       <find>apa</find>
       <find>save</find>
       <find>stock.serviceUrl</find>
       <find>profi</find>
+      <find>kafka</find>
+      <find>log</find>
+      <find>flightbooking</find>
+      <find>loadbalanced</find>
+      <find>stockServiceUrl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,57 +188,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user/src/main/java/com/stockMarket/configs/SwaggerConfiguration.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/stockMarket/model/StockResponse.java" />
-        <option value="$PROJECT_DIR$/company/src/main/java/com/stockMarket/entities/Company.java" />
-        <option value="$PROJECT_DIR$/company/src/main/java/com/stockMarket/model/CompanyResponse.java" />
-        <option value="$PROJECT_DIR$/company/src/main/java/com/stockMarket/adapter/StockDomainAdapter.java" />
-        <option value="$PROJECT_DIR$/user/src/test/java/com/stockMarket/tests/StockServiceTest.java" />
-        <option value="$PROJECT_DIR$/user/src/test/java/com/stockMarket/tests/UserServiceTest.java" />
-        <option value="$PROJECT_DIR$/user/src/test/java/com/stockMarket/tests/services/UserServiceTest.java" />
-        <option value="$PROJECT_DIR$/company/src/test/java/com/stockMarket/tests/CompanyServiceTest.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/stockMarket/entities/User.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/stockMarket/services/UserService.java" />
-        <option value="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/entities/Stock.java" />
-        <option value="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/adapter/StockDomainAdapter.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/stockMarket/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/stock/src/test/java/com/stockMarket/tests/StockServiceTest.java" />
-        <option value="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/repositories/StockRepository.java" />
-        <option value="$PROJECT_DIR$/company/src/main/java/com/stockMarket/model/CompanyModel.java" />
-        <option value="$PROJECT_DIR$/company/src/main/java/com/stockMarket/adapter/CompanyDomainAdapter.java" />
-        <option value="$PROJECT_DIR$/company/src/main/java/com/stockMarket/model/StockResponse.java" />
-        <option value="$PROJECT_DIR$/company/src/main/java/com/stockMarket/model/StockModel.java" />
+        <option value="$PROJECT_DIR$/stock-command/src/test/java/com/stockMarket/tests/StockServiceTest.java" />
+        <option value="$PROJECT_DIR$/stock-command/src/main/java/com/stockMarket/model/StockResponse.java" />
+        <option value="$PROJECT_DIR$/stock-command/src/main/java/com/stockMarket/configs/SwaggerConfiguration.java" />
+        <option value="$PROJECT_DIR$/stock-command/src/main/java/com/stockMarket/repositories/StockRepository.java" />
+        <option value="$PROJECT_DIR$/stock-command/pom.xml" />
+        <option value="$PROJECT_DIR$/stock-command/Dockerfile" />
         <option value="$PROJECT_DIR$/company/src/main/java/com/stockMarket/services/CompanyService.java" />
-        <option value="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/model/StockModel.java" />
-        <option value="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/model/AggregatorResult.java" />
-        <option value="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/model/StockResponse.java" />
-        <option value="$PROJECT_DIR$/user/pom.xml" />
-        <option value="$PROJECT_DIR$/company/src/main/resources/log4j.xml" />
-        <option value="$PROJECT_DIR$/company/pom.xml" />
-        <option value="$PROJECT_DIR$/stock/pom.xml" />
-        <option value="$PROJECT_DIR$/company/src/main/java/com/stockMarket/controller/CompanyController.java" />
-        <option value="$PROJECT_DIR$/user/dockerFile" />
-        <option value="$PROJECT_DIR$/user/Dockerfile" />
-        <option value="$PROJECT_DIR$/EurekaServiceRegistry/Dockerfile" />
-        <option value="$PROJECT_DIR$/company/Dockerfile" />
-        <option value="$PROJECT_DIR$/stock/Dockerfile" />
-        <option value="$PROJECT_DIR$/ZuulAPIGateway/Dockerfile" />
-        <option value="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/controller/StockController.java" />
-        <option value="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/services/StockService.java" />
-        <option value="$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/user/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/company/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/company/src/main/resources/application-prod.properties" />
-        <option value="$PROJECT_DIR$/company/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/stock/src/main/resources/application-prod.properties" />
-        <option value="$PROJECT_DIR$/stock/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/stock/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/company-command/pom.xml" />
+        <option value="$PROJECT_DIR$/company-command/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/company-command/src/main/java/com/stockMarket/model/CompanyResponse.java" />
+        <option value="$PROJECT_DIR$/company-command/src/main/java/com/stockMarket/repositories/CompanyRepository.java" />
+        <option value="$PROJECT_DIR$/company-command/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/stock/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/company/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/stock-command/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/company/src/test/java/com/stockMarket/tests/CompanyServiceTest.java" />
+        <option value="$PROJECT_DIR$/stock-command/src/main/java/com/stockMarket/StockMarketApplication.java" />
+        <option value="$PROJECT_DIR$/stock-command/src/main/java/com/stockMarket/StockMarketCommandApplication.java" />
+        <option value="$PROJECT_DIR$/company-command/src/main/java/com/stockMarket/CompanyManagementApplication.java" />
+        <option value="$PROJECT_DIR$/company-command/src/main/java/com/stockMarket/CompanyManagementCommandApplication.java" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/company-command/src/test/java/com/stockMarket/tests/CompanyServiceTest.java" />
+        <option value="$PROJECT_DIR$/company-command/Dockerfile" />
+        <option value="$PROJECT_DIR$/stock/src/test/java/com/stockMarket/tests/StockServiceTest.java" />
+        <option value="$PROJECT_DIR$/user/src/main/resources/application-prod.properties" />
+        <option value="$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application-prod.properties" />
+        <option value="$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/services/StockService.java" />
+        <option value="$PROJECT_DIR$/company-command/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/stock-command/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/stock-command/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/stock-command/src/main/resources/application-prod.properties" />
+        <option value="$PROJECT_DIR$/stock-command/src/main/java/com/stockMarket/controller/StockController.java" />
+        <option value="$PROJECT_DIR$/stock/src/main/resources/application-prod.properties" />
+        <option value="$PROJECT_DIR$/stock/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/stock/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/company-command/src/main/java/com/stockMarket/controller/CompanyController.java" />
+        <option value="$PROJECT_DIR$/company/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/company/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/company-command/src/main/resources/application-prod.properties" />
+        <option value="$PROJECT_DIR$/company-command/src/main/java/com/stockMarket/services/CompanyService.java" />
+        <option value="$PROJECT_DIR$/company-command/src/main/java/com/stockMarket/configs/RestTemplateConfiguration.java" />
+        <option value="$PROJECT_DIR$/api/api/src/main/java/com/stockMarket/config/RestTemplateConfiguration.java" />
+        <option value="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/configs/RestTemplateConfiguration.java" />
+        <option value="$PROJECT_DIR$/company/src/main/java/com/stockMarket/configs/RestTemplateConfiguration.java" />
+        <option value="$PROJECT_DIR$/stock-command/src/main/java/com/stockMarket/configs/RestTemplateConfiguration.java" />
+        <option value="$PROJECT_DIR$/company/src/main/java/com/stockMarket/controller/CompanyController.java" />
+        <option value="$PROJECT_DIR$/company/src/main/java/com/stockMarket/CompanyManagementApplication.java" />
+        <option value="$PROJECT_DIR$/stock/src/main/java/com/stockMarket/controller/StockController.java" />
+        <option value="$PROJECT_DIR$/company/src/main/resources/application-prod.properties" />
       </list>
     </option>
   </component>
@@ -203,11 +254,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="stock-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="company-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="stock-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="company-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -225,7 +276,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,17 +283,62 @@
               <item name="E-Stock" type="b2602c69:ProjectViewProjectNode" />
               <item name="E-Stock" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="E-Stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Stock" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Stock" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Stock" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Stock" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Stock" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stockMarket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="E-Stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="E-Stock" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1641413143520" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1642265522475" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -255,10 +350,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Downloads\E-Stock\ZuulAPIGateway\src\main\resources" />
+      <recent name="C:\Users\User\Downloads\E-Stock" />
       <recent name="C:\Users\User\Downloads\E-Stock\ZuulAPIGateway" />
       <recent name="C:\Users\User\Downloads\E-Stock\stock" />
       <recent name="C:\Users\User\Downloads\E-Stock\company" />
-      <recent name="C:\Users\User\Downloads\E-Stock\EurekaServiceRegistry" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -273,7 +368,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StockMarketApplication">
+  <component name="RunManager" selected="Application.CompanyManagementApplication">
     <configuration name="CompanyManagementApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stockMarket.CompanyManagementApplication" />
       <module name="company-service" />
@@ -287,12 +382,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eureka.EurekaApplication" />
-      <module name="eureka-service-registry" />
+    <configuration name="CompanyManagementCommandApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stockMarket.CompanyManagementCommandApplication" />
+      <module name="company-command-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eureka.*" />
+          <option name="PATTERN" value="com.stockMarket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,9 +408,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserManagementApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.stockMarket.UserManagementApplication" />
-      <module name="user-service" />
+    <configuration name="StockMarketCommandApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stockMarket.StockMarketCommandApplication" />
+      <module name="stock-command-service" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.stockMarket.*" />
@@ -341,11 +436,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StockMarketApplication" />
-        <item itemvalue="Application.ZuulAPIGatewayApplication" />
         <item itemvalue="Application.CompanyManagementApplication" />
-        <item itemvalue="Application.EurekaApplication" />
-        <item itemvalue="Application.UserManagementApplication" />
+        <item itemvalue="Application.CompanyManagementCommandApplication" />
+        <item itemvalue="Application.StockMarketApplication" />
+        <item itemvalue="Application.StockMarketCommandApplication" />
+        <item itemvalue="Application.ZuulAPIGatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -374,13 +469,17 @@
       <option name="project" value="LOCAL" />
       <updated>1641413015276</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="AWS KEY">
+      <created>1641527975886</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641527975886</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StockServiceTest - 2022.01.01 at 19h 22m 10s.xml">
-      <configuration name="StockServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StockServiceTest - 2022.01.01 at 19h 23m 43s.xml">
       <configuration name="StockServiceTest" configurationId="JUnit" />
     </history-entry>
@@ -405,11 +504,46 @@
     <history-entry file="UserServiceTest_testSaveUser - 2022.01.01 at 19h 33m 19s.xml">
       <configuration name="UserServiceTest.testSaveUser" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CompanyServiceTest - 2022.01.12 at 22h 40m 54s.xml">
+      <configuration name="CompanyServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompanyServiceTest - 2022.01.12 at 22h 46m 01s.xml">
+      <configuration name="CompanyServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="584" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25809062" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26618123" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="aws.explorer" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5587583" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6363636" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.62527716" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50242716" side_tool="true" weight="0.3037694" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3880266" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4975728" weight="0.41019955" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.32928804" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25809062" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -418,14 +552,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.62971175" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32150775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5099778" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38137472" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5210643" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3880266" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3880266" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.5609756" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -435,7 +569,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -480,7 +614,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Stock service date changes" />
     <MESSAGE value="Added docker compose" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added docker compose" />
+    <MESSAGE value="AWS KEY" />
+    <option name="LAST_COMMIT_MESSAGE" value="AWS KEY" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -499,33 +634,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/controller/StockController.java</url>
-          <line>42</line>
+          <line>49</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/controller/StockController.java</url>
-          <line>51</line>
+          <line>58</line>
           <properties />
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/services/CompanyService.java</url>
-          <line>59</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/services/CompanyService.java</url>
-          <line>101</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/services/CompanyService.java</url>
-          <line>105</line>
-          <properties />
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/services/StockService.java</url>
@@ -533,382 +650,402 @@
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/company-command/src/main/java/com/stockMarket/services/CompanyService.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/company-command/src/main/java/com/stockMarket/services/CompanyService.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>this.stockServiceUrl+&quot;delete/&quot;+companyCode</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.8/spring-aop-5.3.8.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/api/src/main/java/com/stockMarket/jwt/JwtTokenUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-759" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/api/src/main/java/com/stockMarket/jwt/JwtUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="32" column="40" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/adapter/CompanyDomainAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.8/spring-web-5.3.8.jar!/org/springframework/web/client/RestTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="217" column="79" selection-start-line="217" selection-start-column="67" selection-end-line="217" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/model/CompanyResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/model/StockResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/model/StockModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/repositories/StockRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/3.2.2/spring-data-mongodb-3.2.2.jar!/org/springframework/data/mongodb/core/aggregation/Aggregation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.8/spring-webmvc-5.3.8.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.8/spring-webmvc-5.3.8.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="554" selection-start-line="554" selection-end-line="554" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.8/spring-web-5.3.8.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/model/StockModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/model/AggregatorResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/3.2.2/spring-data-mongodb-3.2.2.jar!/org/springframework/data/mongodb/core/aggregation/AggregationResults.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding>
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.31/slf4j-api-1.7.31.jar!/org/slf4j/LoggerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/model/StockResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/model/CompanyModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/controller/CompanyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EurekaServiceRegistry/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EurekaServiceRegistry/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZuulAPIGateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZuulAPIGateway/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.jar!/io/swagger/annotations/ApiResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/controller/StockController.java">
+    <entry file="file://$PROJECT_DIR$/company-command/src/test/java/com/stockMarket/tests/CompanyServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
-          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EurekaServiceRegistry/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/company-command/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stock/pom.xml">
+    <entry file="file://$PROJECT_DIR$/stock/src/test/java/com/stockMarket/tests/StockServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        <state relative-caret-position="221">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/services/StockService.java">
+    <entry file="file://$PROJECT_DIR$/EurekaServiceRegistry/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/user/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/resources/application-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="23" selection-end-column="6" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="97" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EurekaServiceRegistry/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/stock/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="39">
+          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/StockMarketApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/services/StockService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        <state relative-caret-position="161">
+          <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/services/CompanyService.java">
+    <entry file="file://$PROJECT_DIR$/company/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-command/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-command/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-command/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-command/src/main/java/com/stockMarket/controller/StockController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock-command/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/controller/ControllerExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company-command/src/main/java/com/stockMarket/CompanyManagementCommandApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company-command/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.8/spring-web-5.3.8.jar!/org/springframework/web/util/DefaultUriTemplateHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="41" column="45" lean-forward="true" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.8/spring-web-5.3.8.jar!/org/springframework/web/util/AbstractUriTemplateHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.8/spring-web-5.3.8.jar!/org/springframework/web/util/UriTemplateHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company-command/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company-command/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="87" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company-command/src/main/java/com/stockMarket/controller/CompanyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.8/spring-web-5.3.8.jar!/org/springframework/http/client/AbstractClientHttpRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.8/spring-web-5.3.8.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company-command/src/main/java/com/stockMarket/configs/RestTemplateConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company-command/src/main/java/com/stockMarket/services/CompanyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stock/src/main/resources/applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/stock/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/api/api/src/main/java/com/stockMarket/config/RestTemplateConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/configs/RestTemplateConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stock/src/main/resources/application-dev.properties">
+    <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/configs/RestTemplateConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/stock-command/src/main/java/com/stockMarket/configs/RestTemplateConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/services/CompanyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="41" column="108" selection-start-line="41" selection-start-column="93" selection-end-line="41" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZuulAPIGateway/src/main/java/com/stock/market/controller/ZuulAPIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZuulAPIGateway/src/main/java/com/stock/market/ZuulAPIGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/CompanyManagementApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/src/main/java/com/stockMarket/controller/CompanyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock/src/main/java/com/stockMarket/controller/StockController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="29" />
+          <folding>
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/company/src/main/resources/application-prod.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="85">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stock/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/src/main/resources/log4j2.xml">
+    <entry file="file://$PROJECT_DIR$/company/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZuulAPIGateway/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="124" selection-start-line="7" selection-start-column="124" selection-end-line="7" selection-end-column="124" />
+          <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
         </state>
       </provider>
     </entry>
