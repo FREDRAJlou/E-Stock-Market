@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="info" name="spring-boot-kafka-log" packages="com.stockMarket">
-  <!--  <Appenders>
+    <Appenders>
         <Kafka name="Kafka" topic="stock-logs">
             <PatternLayout pattern="%date %message"/>
-            <Property name="bootstrap.servers">ec2-54-174-187-235.compute-1.amazonaws.com:9092</Property>
+            <Property name="bootstrap.servers">ec2-54-174-187-235.compute-1.amazonaws.com:9092,172.19.3.113:9092</Property>
         </Kafka>
         <Async name="Async">
             <AppenderRef ref="Kafka"/>
@@ -20,5 +20,5 @@
             <AppenderRef ref="stdout"/>
         </Root>
         <Logger name="org.apache.kafka" level="WARN" />
-    </Loggers>-->
+    </Loggers>
 </Configuration>

@@ -20,11 +20,11 @@
     <bytecodeTargetLevel>
       <module name="company-command-service" target="9" />
       <module name="company-service" target="9" />
-      <module name="eureka-service-registry" target="9" />
+      <module name="eureka-service-registry" target="1.8" />
       <module name="stock-command-service" target="9" />
       <module name="stock-service" target="9" />
-      <module name="user-service" target="9" />
-      <module name="ZuulApiGateway" target="9" />
+      <module name="user-service" target="1.8" />
+      <module name="ZuulApiGateway" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

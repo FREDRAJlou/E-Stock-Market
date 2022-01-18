@@ -27,6 +27,7 @@ services:
     depends_on:
       - eureka-server
     environment:
+      spring.profiles.active: 'dev'
       eureka.host: eureka-server
       eureka.instance.preferIpAddress: 'true'
   stock-command-service:

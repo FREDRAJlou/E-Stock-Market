@@ -31,9 +31,12 @@ class CompanyServiceTest {
 
     @Test
     void testSaveCompany(){
-        when(companyRepository.saveAll(any())).thenReturn(Collections.emptyList());
-        this.companyService.saveCompanies(Collections.emptyList())
-;        verify(this.companyRepository,times(1)).saveAll(Collections.emptyList());
+        Company company = new Company();
+        company.setTurnOver(100l);
+        List<Company> companyList = List.of(company);
+        when(companyRepository.saveAll(any())).thenReturn(companyList);
+        this.companyService.saveCompanies(companyList);
+        verify(this.companyRepository,times(1)).saveAll(companyList);
     }
 
 
